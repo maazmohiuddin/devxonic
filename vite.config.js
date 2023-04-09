@@ -8,14 +8,4 @@ export default defineConfig({
     jsxFactory: "h",
     jsxFragment: "Fragment",
   },
-  build: {
-    assetsInlineLimit: 0,
-    rollupOptions: {
-      output: {
-        mimeTypes: {
-          js: ["application/javascript"],
-        },
-      },
-    },
-  },
 });
